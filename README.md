@@ -23,8 +23,8 @@ python upcschool_mongolab.py
 # Querys Modelo4
 
 # Tiempos
-| Nombre     | Edad | Ciudad      |
-|------------|------|-------------|
-| Ana        | 28   | Madrid      |
-| Juan       | 34   | Buenos Aires|
-| Lucía      | 22   | Bogotá      |
+|      | Q1   | Q2      |      Q3       |
+|------|------|---------|-------------|
+| M1   |    |       |             |
+| M2   |    |       |             |
+| M3   |    |       |             |
