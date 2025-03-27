@@ -16,6 +16,14 @@ python upcschool_mongolab.py
 ```
 
 ## Querys Modelo1
+ 
+ * Q1: For each person, retrieve their full name and their company’s name
+
+ * Q2: For each company, retrieve its name and the number of employees
+
+  * Q3: For each person born before 1988, update their age to 30
+
+  * Q4: For each company, update its name to include the word “Company
 
 ## Querys Modelo2
 
