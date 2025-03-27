@@ -13,7 +13,7 @@ class Model3:
 		db = client['test']
 
 		# delete collection data if exists
-		db.drop_collection("Person_CompanyEmbebed")
+		db.drop_collection("Company_PersonEmbebed")
 
 	
         # create and obtain collection
