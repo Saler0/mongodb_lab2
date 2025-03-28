@@ -23,10 +23,10 @@ class Querys:
             start = time.time()
             result = db.Person.aggregate([
                 {"$lookup": {
-                    "from": "Company",
-                    "localField": "works_in",
-                    "foreignField": "domain",
-                    "as": "company_info"
+                    "from": "Company", # Colección externa a la que haremos join
+                    "localField": "works_in", # Campo en el documento actual
+                    "foreignField": "domain", # Campo en la otra colección que debe coincidir
+                    "as": "company_info" # Nombre del nuevo campo que tendrá la info embebida (como un array)
                 }},
                 {"$unwind": "$company_info"},
                 {"$project": {
